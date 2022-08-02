@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gas - Berechnung</title>
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./dist/img/fav/favicon-32x32.png">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="./dist/css/style.css">
+  <link rel="stylesheet" href="./dist/spock/css/spock.css">
+  <!-- <link rel="stylesheet" href="./dist/fonts/fontawesome/css/all.css"> -->
+</head>
+<body onload="startGame()">
+    <main>
+          <nav id="navbar" class="navbar">
+            <a href="#default" id="logo3">Highly illogical!</a>
+            <div class="nav-container">
+                <a href="#default" id="logo2">Highly illogical!</a>
+            <a class="nav-el" href="index.html"><i class="fa-solid fa-fire-flame-curved"></i> Gas</a>
+            <a class="nav-el" href="#"><i class="fa-solid fa-plug-circle-exclamation"></i> Strom</a>
+            <a class="nav-el" href="#"><i class="fa-solid fa-water"></i> Wasser</a>
+            <a class="active nav-el" href="spockTheGame.html"><i class="fa-solid fa-hand-spock"></i> Spock</a>
+            <a class="nav-el"  href="#default" id="logo">Highly illogical!</a>
+            </div>
+        </nav>
+    <section id="canvasTypewriterContainer">
+          <div id="canvasContainer">
+            <canvas id="canvas"></canvas>
+            <div id="containerStartEnd-btn">
+              <button onmousedown="restart()">Restart</button><button onmousedown="stopGame()">End the Game</button><button id="myBtn">Highscore</button>
+              <!-- <button id="myBtn2">Enter Name</button> -->
+            </div>
+          </div> 
+          <aside id="typewriterBox">
+              <div id="logoContainer"><img id="starfleetLogo" src="./dist/spock/img/sf-command.png" alt="starfleet command"></div>
+              <div id="myTypingText"></div>
+          </aside>
+          <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h3>Spock - Highscore</h3>
+                  </div>
+                  <div id="modalBody" class="modal-body">   
+                    <!-- <div id="container">   
+                      
+                    </div> -->
+                </div>
+                <div class="modal-footer">
+                  <h3>Facinating results!</h3>
+                </div>
+              </div>
+            </div>
+          <!-- === MODAL ENTER NAME === -->
+          <div id="myModal2" class="modal2">
+          
+                  <div class="modal-content2">
+                    <div class="modal-header2">
+                        <span class="close2">&times;</span>
+                        <h2>Facinating!</h2>
+                      </div>
+                      <div id="modalBody2" class="modal-body2">  
+                      <form id="formField" action"#" method="get">
+                          <input type="text" name="username" maxlength="15" form="formField" placeholder="Please enter your name"  required>
+                          <button><a type="submit" value="submit" id="btn-highscore2" ></a>Enter</button>
+                      </form>
+                    </div>
+                    <div class="modal-footer2">
+                      <h5>Your name will be added to the Highscore-List!</h5>
+                    </div>
+                  </div>
+                </div>
+    </section>
+    </main>
+
+<script src="./dist/spock/js/main.js"></script>
+</body>
+</html>
