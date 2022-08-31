@@ -1,6 +1,6 @@
 # Energycost-Calculator
 
-It's build only in Javascript in order to learn to code in JS.
+The project was created in Javascript only, in order to learn to code in JS.
 Of course it is not recommended to build a whole Website, only in JS since it can be blockt in the browser.
 But this website was not made for public use, but instead for me to learn coding in Javascript.
 There are still a few things that need to be done.
