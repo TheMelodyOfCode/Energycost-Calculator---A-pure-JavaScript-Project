@@ -11,11 +11,14 @@ Please see issues for that.
 In order to check this project out you need to do the following:
 
 You need a webserver.
+
 I'm using XAMPP
 Just install XAMPP and after the download put the project in the htdocs Folder.
+
 Under Windows C:\xampp\htdocs\
 
 start app:
+
 http://localhost/
 
 
