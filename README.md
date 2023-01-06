@@ -10,7 +10,7 @@
 > In hindsight, after reviewing this project after serveral month.  
 > I noticed soo many things that I wouldn't do anymore.  
 > I will leave this project in here since it can still be useful for people 
-> in Germany that want to calculate their energieprices and keep a record of it.  
+> in Germany that want to calculate their natural gas, energy and water costs and keep a record of it.  
 > If I find the time I will convert this project to React (hooks only , no classes :-)) and attache it to Firebase.
 
 ### Spock the Game
