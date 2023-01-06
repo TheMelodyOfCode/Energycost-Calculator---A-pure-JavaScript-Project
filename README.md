@@ -1,24 +1,22 @@
-# Energycost-Calculator
+# JavaScript - Energycost-Calculator & Spok the Game
 
-The project was created in Javascript only, in order to learn to code in JS.
-Of course it is not recommended to build a whole Website, only in JS since it can be blockt in the browser.
-But this website was not made for public use, but instead for me to learn coding in Javascript.
-There are still a few things that need to be done.
-Please see issues for that.
+This project was my very first big project in Javascript.  
+It covers the fundameltals of JS and  as you might noticed I used classes.  
+I know classes are and old technologie and only rarly used nowadays.  
+But this is an old project by now.  
+I will leave this project in here since it can still be useful for people 
+in Germany that want to calculate their energieprices and keep a record of it.  
+If I find the time I will convert this project to React (hooks only , no classes :-)) and attache it to Firebase.  
 
-**Getting started:**
-
-In order to check this project out you need to do the following:
-
-You need a webserver.
-
-I'm using XAMPP
-Just install XAMPP and after the download put the project in the htdocs Folder.
-
-Under Windows C:\xampp\htdocs\
-
-start app:
-
-http://localhost/
+### Spok the Game
+As a feature I added a little game  
 
 
+### Getting started:
+
+> - You will need a testserver  
+> - I'm using XAMPP  
+
+> - install XAMPP   
+> - after the download put the project in the htdocs folder. Windows C:\xampp\htdocs\
+> - open browser  --> http://localhost/
